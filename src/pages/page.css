@@ -1,0 +1,13 @@
+
+@media (max-width: 768px) {
+    .section-padding-top {
+      padding-top: 70px; /* Adjust this value as needed */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .section-padding-top {
+      padding-top: 100px; /* Adjust for larger screens */
+    }
+  }
+  

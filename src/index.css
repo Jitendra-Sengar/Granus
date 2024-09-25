@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cards{
+  word-wrap: break-word;
+  width: 150px;
+  border: 1px solid black;
+}

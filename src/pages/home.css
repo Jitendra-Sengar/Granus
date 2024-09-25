@@ -1,0 +1,45 @@
+#testimonials {
+    min-height: 300px; /* Adjust as needed */
+    overflow: visible;
+  }
+  
+  .testimonial-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .testimonial-name {
+    font-size: 1.5rem;
+  }
+  
+  .testimonial-review {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Media queries for smaller screens */
+  @media (max-width: 768px) {
+    .testimonial-img {
+      width: 80px;
+      height: 80px;
+    }
+    .testimonial-name {
+      font-size: 1.2rem;
+    }
+    .testimonial-review {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .testimonial-img {
+      width: 60px;
+      height: 60px;
+    }
+    .testimonial-name {
+      font-size: 1rem;
+    }
+    .testimonial-review {
+      font-size: 0.8rem;
+    }
+  }
